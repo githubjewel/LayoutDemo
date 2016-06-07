@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1"/>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/image1"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image2"/>
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/image2"
+        android:layout_alignStart="@id/image2"
+        android:layout_alignLeft="@id/image2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image3"/>
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/image1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image4"/>
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/image4"
+        android:src="@drawable/image5"/>
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_toRightOf="@id/image5"
+        android:layout_below="@id/image3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image6"/>
+
+    <ImageView
+        android:id="@+id/image7"
+        android:layout_width="280dp"
+        android:layout_height="203dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image7"/>
+
+    <ImageView
+        android:id="@+id/image8"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/image7"
+        android:layout_below="@id/image6"
+        android:src="@drawable/image8"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/image7"
+        android:layout_below="@id/image8"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/image9"/>
+</RelativeLayout>
