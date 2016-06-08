@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LayoutDemo</string>
+    <string name="enter_your_first_name">Enter Your First Name</string>
+    <string name="enter_your_middle_name">Enter Your Middle Name</string>
+    <string name="enter_your_last_name">Enter Your Last Name</string>
+    <string name="show_full_name">Show Full Name</string>
 </resources>
